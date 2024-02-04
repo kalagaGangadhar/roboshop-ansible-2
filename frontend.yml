@@ -14,7 +14,7 @@
 
     - name: clean old content
       ansible.builtin.file:
-        path: /usr/share/nginx/html/*
+        path: /usr/share/nginx/html
         state: present
 
     - name: Create app directory
