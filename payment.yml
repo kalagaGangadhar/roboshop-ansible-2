@@ -2,7 +2,7 @@
   hosts: all
   become: true
   vars:
-    component: catalogue
+    component: payment
   tasks:
     - name: import python setup
       ansible.builtin.import_tasks: python.yml
